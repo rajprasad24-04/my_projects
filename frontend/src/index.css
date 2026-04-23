@@ -1,0 +1,80 @@
+/* -------------------------------------------------------------------------
+   WCG Brand Design System
+   Primary: #1453C3 | Accent: #D67F00 | Text: #000000 | BG: #FFFFFF
+   Fonts: Montserrat (headings) | Open Sans (body)
+   ------------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Core brand colors */
+  --bg:         #FFFFFF;
+  --surface:    #F5F5F5;
+  --surface2:   #CBDDFF;
+  --border:     #C5C5C5;
+  --text:       #000000;
+  --text-body:  #1a1a1a;
+  --muted:      #555555;
+
+  /* Brand colors */
+  --blue:       #1453C3;
+  --blue-dark:  #0C295D;
+  --blue-light: #CBDDFF;
+  --orange:     #D67F00;
+  --orange-lt:  #FFE7C4;
+
+  /* Status colors */
+  --error:      #CC3802;
+  --success:    #1FC971;
+  --warning:    #D1A712;
+
+  /* Keep these for backward compat */
+  --accent:     #D67F00;
+  --accent2:    #A96401;
+  --green:      #1FC971;
+  --red:        #CC3802;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-body);
+  font-family: 'Open Sans', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  color: var(--text);
+}
+
+button {
+  font-family: 'Open Sans', system-ui, sans-serif;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: 'Open Sans', system-ui, sans-serif;
+}
+
+/* Spinner animation */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(20, 83, 195, 0.2);
+  border-top-color: var(--blue);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}

@@ -1,0 +1,84 @@
+{
+  "id": "Anushka_20260408_061621_987920",
+  "created_at": "2026-04-08T06:16:21.987920",
+  "user_name": "Anushka",
+  "time_horizon": 2,
+  "investment_amount": 340000.0,
+  "answers": {
+    "Q1": 6,
+    "Q2": 4,
+    "Q3": 3,
+    "Q4": 3,
+    "Q5": 4,
+    "Q6": 5,
+    "Q7": 5,
+    "Q8": 6,
+    "Q9": 3,
+    "Q10": 5
+  },
+  "score": 73,
+  "category": "Very High",
+  "level": "very-high",
+  "breakdown": [
+    {
+      "question": "Q1",
+      "value": 6,
+      "coefficient": 1.4219,
+      "points": 8.53
+    },
+    {
+      "question": "Q2",
+      "value": 4,
+      "coefficient": 2.53,
+      "points": 10.12
+    },
+    {
+      "question": "Q3",
+      "value": 3,
+      "coefficient": 2.9337,
+      "points": 8.8
+    },
+    {
+      "question": "Q4",
+      "value": 3,
+      "coefficient": 2.172,
+      "points": 6.52
+    },
+    {
+      "question": "Q5",
+      "value": 4,
+      "coefficient": 2.1985,
+      "points": 8.79
+    },
+    {
+      "question": "Q6",
+      "value": 5,
+      "coefficient": 1.3318,
+      "points": 6.66
+    },
+    {
+      "question": "Q7",
+      "value": 5,
+      "coefficient": 1.3386,
+      "points": 6.69
+    },
+    {
+      "question": "Q8",
+      "value": 6,
+      "coefficient": 1.4704,
+      "points": 8.82
+    },
+    {
+      "question": "Q9",
+      "value": 3,
+      "coefficient": 1.8848,
+      "points": 5.65
+    },
+    {
+      "question": "Q10",
+      "value": 5,
+      "coefficient": 1.0876,
+      "points": 5.44
+    }
+  ]
+}
